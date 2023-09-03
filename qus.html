@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questions</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <div class="text-center mt-10">
+    <h3 class="text-red-600 text-4xl font-bold">QNA</h3>
+  </div>
+
+  <!-- qus section -->
+
+  <div class="mx-auto mt-20 md:max-w-5xl">
+    <div class="collapse mt-5 collapse-plus bg-base-200">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">
+        Discuss the scope of <span class="bg-slate-400 px-2 rounded-lg text-white">var</span>, <span
+          class="bg-slate-400 px-2 rounded-lg text-white">let</span>, and <span
+          class="bg-slate-400 px-2 rounded-lg text-white">const</span>
+      </div>
+      <div class="collapse-content">
+        <p class="text-base font-semibold">The "Var" or variable is a common and a very essential component of
+          JavaScript. It's like a magical element
+          which works differently other than "let" and "const" variables.
+          <br>
+          The "var" variable is kind of function level itself. It behaves as it is a global variable and the interesting
+          fact is it can be accessed throughout the entire function in which it is declared.
+
+          <br>
+          <br>
+          <br>
+
+
+          let's look at an example. <br>
+
+
+
+          <span class="text-lg text-red-400 font-extrabold">
+            function example() { <br>
+            if (true) { <br>
+            var x = 10; <br>
+            } <br>
+            console.log(x); <br>
+            }
+          </span>
+
+
+          <br>
+
+
+          here, the "var" can be accessed throughout the entire function.
+
+          <br>
+          <br>
+          <br>
+
+
+          On the other hand, "let" an "const" are both block level variables which can't be accessed as "var" but
+          there's a little difference between them.
+          <br>
+          <br>
+          <br>
+          The "let" allows to change the values of the variables even it is declared before but the "const" is
+          unchangeable.
+        </p>
+      </div>
+    </div>
+    <div class="collapse mt-5 collapse-plus bg-base-200">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">
+        Tell us the use cases of <span class="bg-slate-400 px-2 rounded-lg text-white">null</span> and <span
+          class="bg-slate-400 px-2 rounded-lg text-white">undefined</span>
+      </div>
+      <div class="collapse-content">
+        <p class="text-base font-semibold">"null" is generally an empty value which is used to show intentionally as
+          empty. It is a variable which act
+          or is used as it shouldn't have a value.
+
+          <br>
+          <br>
+          for example:
+          <br>
+          <br>
+          <span class="text-lg text-red-400 font-extrabold">
+            let selectedOption = null;
+          </span>
+          <br>
+          <br>
+
+          Here, the "let" variable is used to intentionally show an empty value.
+
+
+          <br>
+          <br>
+          <br>
+
+          On the other hand, "undefined" acts differently. It pops up when an user trying to get an output but the value
+          isn't assigned yet. If the user trying to get an output without declaring a certain value the "undefined" will
+          appear.
+          <br>
+          <br>
+          <br>
+          for example:
+          <br>
+          <br>
+          <span class="text-lg text-red-400 font-extrabold">
+            let age;
+            console.log(age);
+          </span>
+
+
+        </p>
+      </div>
+    </div>
+    <div class="collapse mt-5 collapse-plus bg-base-200">
+      <input type="radio" name="my-accordion-3" />
+      <div class="collapse-title text-xl font-medium">
+        What do you mean by REST API?
+      </div>
+      <div class="collapse-content">
+        <p class="text-base font-semibold">
+          The REST API in JavaScript works as a bridge for different softwares or applications to contact with one
+          another over a network system or it can be called "The Internet".
+
+          <br>
+          <br>
+
+          It works as a communicator. Suppose JOHN ordered a PS5 on the internet. The provider will not directly deliver
+          the PS5 to JOHN. The provider will get the order from Internet and then he will command the delivery-man to
+          deliver the PS5 to JOHN.
+
+          <br>
+          <br>
+
+          In the same way, when an user requests a data to a server, the API of that server receive the request first
+          and then send it to the main or Host server. Then the Host server checks if the request is valid or not. If
+          the request is valid then it gives the requested data to the API and the API then delivers the data to the
+          user.
+
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- qus section -->
+
+
+  <!-- button section -->
+  <div class="mx-auto text-center mt-20">
+    <button class="btn btn-secondary"><a href="index.html">Back</a></button>
+  </div>
+  <!-- button section -->
+
+</body>
+
+</html>
